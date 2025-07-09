@@ -12,25 +12,19 @@ This program helps track potential exposure to a zombie outbreak by checking if 
 
 ## How to Use
 
-1. Compile the program:
+1. Compile the program by running:
 
-\```bash
 javac ZombieCatcher.java
-\```
 
 2. Run the program:
 
-- For manual input:
+- For manual input, run:
 
-\```bash
 java ZombieCatcher
-\```
 
-- To read visitor data from one or more files:
+- To read visitor data from one or more files, run:
 
-\```bash
 java ZombieCatcher file1.txt file2.txt
-\```
 
 ---
 
@@ -38,29 +32,27 @@ java ZombieCatcher file1.txt file2.txt
 
 Manual input example:
 
-\```
-Enter the start time:
-5
-Enter the end time:
-7
-Enter the number of visitors:
-2
-Enter the visitor's name:
-Sulaimaan
-Enter the arrival time:
-4
-Enter the departure time:
-8
-Sulaimaan needs to be quarantined.
-Enter the visitor's name:
-Dmani
-Enter the arrival time:
-8
-Enter the departure time:
-9
-Dmani does not need to be quarantined.
+Enter the start time:  
+5  
+Enter the end time:  
+7  
+Enter the number of visitors:  
+2  
+Enter the visitor's name:  
+Sulaimaan  
+Enter the arrival time:  
+4  
+Enter the departure time:  
+8  
+Sulaimaan needs to be quarantined.  
+Enter the visitor's name:  
+Dmani  
+Enter the arrival time:  
+8  
+Enter the departure time:  
+9  
+Dmani does not need to be quarantined.  
 Number of potential zombies: 1
-\```
 
 ---
 
